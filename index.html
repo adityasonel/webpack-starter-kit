@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>{{projectName}}</title>
+		<title>Webpack TailWind Starter</title>
 		<!-- Twitter Card data -->
 		<meta name="twitter:card" value="Webpack-TailWind basic starter project" />
 		<meta
@@ -33,6 +33,14 @@
 		/>
 	</head>
 	<body>
-		<h1>I'm a simple webpack-tailwind starter project for your basic web development needs.</h1>
+		<div class="container">
+			<p class="title">Webpack Tailwind Starter Project</p>
+			<img
+				class="webpack-logo"
+				src="<%= require('./src/assets/icon.png') %>"
+				alt="webpack logo"
+			/>
+			<a id="dev-name" class="dev-name">developed with ♥️ by aditya</a>
+		</div>
 	</body>
 </html>

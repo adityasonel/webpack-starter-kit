@@ -3,3 +3,65 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.title {
+	cursor: pointer;
+	position: absolute;
+	top: 6%;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 1.1px;
+	color: white;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.webpack-logo {
+	width: 10%;
+	height: 20%;
+	-webkit-animation: spin 4s linear infinite;
+	-moz-animation: spin 4s linear infinite;
+	animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.dev-name {
+	cursor: pointer;
+	letter-spacing: 1.1px;
+	text-decoration: underline;
+	color: white;
+	font-size: 10px;
+	font-weight: 300;
+	position: absolute;
+	bottom: 4%;
+}
