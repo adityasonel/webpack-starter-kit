@@ -26,6 +26,13 @@ Clone the repository
  cd PROJECT-NAME
 ```
 
+Or you can head-start with preinstalled bootstrap-jquery setup kit as
+
+```sh
+ git clone --single-branch --branch bootstrap-kit  https://github.com/adityasonel/webpack-starter-kit PROJECT-NAME
+ cd PROJECT-NAME
+```
+
 Install npm dependencies
 
 ```sh
@@ -199,12 +206,9 @@ Replace the project `index.scss` with
 And replace the project `index.js` with
 
 ```js
-require("./styles/index.scss");
+import "./styles/index.scss";
 
-import PopperJs from "popper.js";
-import jquery from "jquery";
-
-jquery(() => {
+$(function () {
 	console.log("Hello jQuery + bootstrap 4!");
 });
 ```

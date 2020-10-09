@@ -1,14 +1,9 @@
-require("./styles/index.scss");
+import "./styles/index.scss";
 
-class Main {
-	constructor() {
-		this.devName = document.getElementById("dev-name");
-		this.devName.addEventListener("click", this.onClickDevName.bind(this));
-	}
+$(function () {
+	console.log("Hello jQuery + bootstrap 4!");
 
-	onClickDevName() {
-		window.open("https://github.com/adityasonel/webpack-tailwind-kit/", "_blank");
-	}
-}
-
-new Main();
+	$("#dev-name").on("click", (event) =>
+		window.open("https://github.com/adityasonel/webpack-starter-kit/", "_blank")
+	);
+});
