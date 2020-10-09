@@ -1,4 +1,4 @@
-require("./styles/index.scss");
+import "./styles/index.scss";
 
 class Main {
 	constructor() {
@@ -7,7 +7,7 @@ class Main {
 	}
 
 	onClickDevName() {
-		window.open("https://github.com/adityasonel/webpack-tailwind-kit/", "_blank");
+		window.open("https://github.com/adityasonel/webpack-starter-kit/", "_blank");
 	}
 }
 
