@@ -1,7 +1,7 @@
 {
-	"name": "webpack-tailwind-starter-basic",
+	"name": "webpack-starter-kit",
 	"version": "1.0.0",
-	"description": "A simple and reliable webpack-tailwind starter kit for your web adventures needs.",
+	"description": "A simple and reliable webpack starter kit for your web adventures needs.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/adityasonel/webpack-tailwind-starter-basic.git"
+		"url": "git+https://github.com/adityasonel/webpack-starter-kit.git"
 	},
 	"keywords": [
 		"webpack4",
@@ -37,9 +37,9 @@
 	"author": "Aditya Sonel",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/adityasonel/webpack-tailwind-starter-basic/issues"
+		"url": "https://github.com/adityasonel/webpack-starter-kit/issues"
 	},
-	"homepage": "https://github.com/adityasonel/webpack-tailwind-starter-basic#readme",
+	"homepage": "https://github.com/adityasonel/webpack-starter-kit#readme",
 	"dependencies": {},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^1.1.0",

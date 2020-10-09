@@ -7,7 +7,7 @@ class Main {
 	}
 
 	onClickDevName() {
-		window.open("https://github.com/adityasonel/webpack-tailwind-starter-basic/", "_blank");
+		window.open("https://github.com/adityasonel/webpack-tailwind-kit/", "_blank");
 	}
 }
 
