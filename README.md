@@ -1,3 +1,17 @@
+# 🚀 Webpack starter kit feat. Bootstrap-v4, JQuery or TailwindCSS
+
+![Webpack](https://img.shields.io/npm/v/webpack?label=webpack&style=flat-square)
+![TailwindCSS](https://img.shields.io/npm/v/tailwindcss?label=tailwindcss&style=flat-square)
+![Bootstrap-v4](https://img.shields.io/npm/v/bootstrap?label=bootstrap-v4&style=flat-square)
+![Jquery](https://img.shields.io/npm/v/jquery?label=jquery&style=flat-square)
+
+![GitHub stars](https://img.shields.io/github/stars/adityasonel/webpack-starter-kit?style=social)
+![GitHub forks](https://img.shields.io/github/forks/adityasonel/webpack-starter-kit?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/adityasonel/webpack-starter-kit?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/SonelAditya?label=Follow&style=social)
+
+A simple and reliable webpack starter kit for your web adventures needs, feat. Bootstrap-v4, JQuery or TailwindCSS
+
 ## Features
 
 -   Separated development and production webpack settings you can understand
@@ -26,7 +40,14 @@ Clone the repository
  cd PROJECT-NAME
 ```
 
-Or you can head-start with preinstalled bootstrap-jquery setup kit as
+Or you can head-start with pre setuped tailwindcss kit as
+
+```sh
+ git clone --single-branch --branch tailwind-kit  https://github.com/adityasonel/webpack-starter-kit PROJECT-NAME
+ cd PROJECT-NAME
+```
+
+Or you can also start with bootstrap-jquery setup kit as
 
 ```sh
  git clone --single-branch --branch bootstrap-kit  https://github.com/adityasonel/webpack-starter-kit PROJECT-NAME
@@ -178,39 +199,6 @@ If you would like to include an image on your `index.html` file, place the path 
   <img class="splash-title__img"
                      src="<%= require('./src/assets/logo-on-dark-bg.png') %>"
                      alt="webpack logo"></a>
-```
-
-### How to install Bootstrap 4
-
-**After the project has been kickstarted**
-
-Install bootstrap
-
-```sh
-npm install bootstrap@4 --save
-```
-
-Install bootstrap dependencies.
-
-```sh
-npm install popper.js --save
-npm install jquery --save
-```
-
-Replace the project `index.scss` with
-
-```scss
-@import "~bootstrap/scss/bootstrap";
-```
-
-And replace the project `index.js` with
-
-```js
-import "./styles/index.scss";
-
-$(function () {
-	console.log("Hello jQuery + bootstrap 4!");
-});
 ```
 
 Start the development server and `voilà`.
