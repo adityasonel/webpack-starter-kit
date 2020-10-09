@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Webpack Starter Kit</title>
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" value="Webpack starter kit" />
+		<meta
+			name="Description"
+			content="A simple webpack starter project for your basic web development needs."
+		/>
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Webpack starter project" />
+		<meta property="og:type" content="article" />
+		<meta
+			property="og:url"
+			content="https://github.com/adityasonel/webpack-starter-kit/"
+		/>
+		<meta
+			property="og:description"
+			content="A simple webpack starter project for your basic web development needs."
+		/>
+		<!-- Mobile header color for Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#96e6a1" />
+		<!-- Mobile header color Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#96e6a1" />
+		<!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700"
+			rel="stylesheet"
+		/>
+	<link rel="apple-touch-icon" sizes="57x57" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Webpack Tailwind Starter"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="Webpack Tailwind Starter"><link rel="icon" type="image/png" sizes="32x32" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/favicon-16x16.png"><link rel="shortcut icon" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/favicon.ico"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="icons-5b1f36bc41ab31f5b801d48ba1d65781/apple-touch-startup-image-1536x2008.png"><link href="styles.3c11a1647bba13539de3.css" rel="stylesheet"></head>
+	<body>
+		<div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-screen cursor-pointer">
+			<div class="absolute top-0 p-2 text-gray-300 text-xs font-light inset-x-0 text-center z-10">
+				<p class="sm:block md:hidden lg:hidden xl:hidden">sm-breakpoint</p>
+				<p class="hidden sm:hidden md:block lg:hidden xl:hidden">md-breakpoint</p>
+				<p class="hidden sm:hidden md:hidden lg:block xl:hidden">lg-breakpoint</p>
+				<p class="hidden sm:hidden md:hidden lg:hidden xl:block">xl-breakpoint</p>
+			</div>
+			<div class="flex flex-row items-center justify-center bg-red-700 text-red-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">RED</div>
+			<div class="flex flex-row items-center justify-center bg-orange-700 text-orange-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">ORANGE</div>
+			<div class="flex flex-row items-center justify-center bg-yellow-700 text-yellow-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">YELLOW</div>
+			<div class="flex flex-row items-center justify-center bg-green-700 text-green-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">GREEN</div>
+			<div class="flex flex-row items-center justify-center bg-teal-700 text-teal-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">TEAL</div>
+			<div class="flex flex-row items-center justify-center bg-blue-700 text-blue-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">BLUE</div>
+			<a href="https://github.com/adityasonel/webpack-starter-kit" target="_blank" class="absolute p-2 text-gray-300 text-sm font-light bottom-0 inset-x-0 text-center opacity-50 hover:opacity-75">Webpack starter kit feat. TailwindCSS by Aditya</a>
+		</div>		
+	<script type="text/javascript" src="main.a351a48d26dd0f495ab5.js"></script></body>
+</html>

@@ -33,14 +33,20 @@
 		/>
 	</head>
 	<body>
-		<div class="container">
-			<p class="">Webpack Tailwind Starter Project feat. TailwindCSS</p>
-			<img
-				class="webpack-logo"
-				src="<%= require('./src/assets/icon.png') %>"
-				alt="webpack logo"
-			/>
-			<a id="dev-name" class="">developed with ♥️ by aditya</a>
-		</div>
+		<div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-screen cursor-pointer">
+			<div class="absolute top-0 p-2 text-gray-300 text-xs font-light inset-x-0 text-center z-10">
+				<p class="sm:block md:hidden lg:hidden xl:hidden">sm-breakpoint</p>
+				<p class="hidden sm:hidden md:block lg:hidden xl:hidden">md-breakpoint</p>
+				<p class="hidden sm:hidden md:hidden lg:block xl:hidden">lg-breakpoint</p>
+				<p class="hidden sm:hidden md:hidden lg:hidden xl:block">xl-breakpoint</p>
+			</div>
+			<div class="flex flex-row items-center justify-center bg-red-700 text-red-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">RED</div>
+			<div class="flex flex-row items-center justify-center bg-orange-700 text-orange-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">ORANGE</div>
+			<div class="flex flex-row items-center justify-center bg-yellow-700 text-yellow-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">YELLOW</div>
+			<div class="flex flex-row items-center justify-center bg-green-700 text-green-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">GREEN</div>
+			<div class="flex flex-row items-center justify-center bg-teal-700 text-teal-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">TEAL</div>
+			<div class="flex flex-row items-center justify-center bg-blue-700 text-blue-300 font-bold sm:text-xl md:text-3xl lg:text-4xl hover:opacity-75">BLUE</div>
+			<a href="https://github.com/adityasonel/webpack-starter-kit" target="_blank" class="absolute p-2 text-gray-300 text-sm font-light bottom-0 inset-x-0 text-center opacity-50 hover:opacity-75">Webpack starter kit feat. TailwindCSS by Aditya</a>
+		</div>		
 	</body>
 </html>
