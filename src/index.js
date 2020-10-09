@@ -1,4 +1,4 @@
-import "./styles/index.scss";
+import "./styles/index.css";
 
 class Main {
 	constructor() {
